@@ -200,11 +200,6 @@ body {
 
 input, button, a { touch-action: manipulation; }
 
-/* Invertir logo en modo claro (letras blancas → negras) */
-.light img[alt="InnovaLink"] {
-  filter: invert(1);
-}
-
 /* ─── Hero ─── */
 .hero-gradient {
   background: var(--hero-gradient-bg);

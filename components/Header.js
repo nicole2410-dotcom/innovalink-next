@@ -23,6 +23,7 @@ export default function Header() {
     return () => document.removeEventListener("mousedown", handler);
   }, []);
 
+  const logoSrc = theme === "light" ? "/Images/innovalink_claro.png" : "/Images/innovalink - Editado.png";
   const suggestions = searchTerm.trim()
     ? products.filter((p) => p.name.toLowerCase().includes(searchTerm.toLowerCase()) || p.category?.toLowerCase().includes(searchTerm.toLowerCase())).slice(0, 5)
     : [];
@@ -31,7 +32,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 glass border-b border-white/10">
       <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between gap-4">
         <a href="/" className="flex items-center gap-3 flex-shrink-0 group">
-          <img src="/Images/innovalink - Editado.png" alt="InnovaLink" className="h-[52px] w-auto transition-transform duration-300 group-hover:scale-105" />
+          <img src={logoSrc} alt="InnovaLink" className="h-[52px] w-auto transition-transform duration-300 group-hover:scale-105" />
         </a>
 
         <div className="flex-1 max-w-md relative" ref={ref}>

@@ -1,6 +1,9 @@
 "use client";
 
+import { useStore } from "@/context/StoreContext";
+
 export default function Footer() {
+  const { theme } = useStore();
   const scrollToTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
 
   return (
@@ -9,7 +12,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
             <img
-              src="/Images/innovalink - Editado.png"
+              src={theme === "light" ? "/Images/innovalink_claro.png" : "/Images/innovalink - Editado.png"}
               alt="InnovaLink"
               className="h-10 w-auto"
               onError={(e) => { e.target.style.display = "none"; }}
