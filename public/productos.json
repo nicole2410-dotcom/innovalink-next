@@ -1,0 +1,994 @@
+﻿{
+    "products":  [
+                     {
+                         "id":  1,
+                         "name":  "ADAPTADOR ETHERNET Y USB",
+                         "price":  25,
+                         "category":  "Accesorios",
+                         "badge":  "NUEVO",
+                         "image":  "Images/ADAPTADOR ETHERNET Y USB.webp",
+                         "specs":  "Puerto Ethernet + 3 USB 3.0"
+                     },
+                     {
+                         "id":  2,
+                         "name":  "ADAPTADOR HDMI A VGA",
+                         "price":  15,
+                         "category":  "Accesorios",
+                         "badge":  null,
+                         "image":  "Images/ADAPTADOR HDMI A VGA.webp",
+                         "specs":  "Convierte HDMI a VGA, 1080p"
+                     },
+                     {
+                         "id":  3,
+                         "name":  "ADAPTADOR TIPO C A HDMI Astra",
+                         "price":  22,
+                         "category":  "Accesorios",
+                         "badge":  "OFERTA",
+                         "image":  "Images/ADAPTADOR TIPO C A HDMI astra.webp",
+                         "specs":  "USB-C a HDMI 4K"
+                     },
+                     {
+                         "id":  4,
+                         "name":  "ADAPTADOR TIPO C A HDMI PD100W USB 3.0",
+                         "price":  35,
+                         "category":  "Accesorios",
+                         "badge":  "NUEVO",
+                         "image":  "Images/ADAPTADOR TIPO C A HDMI. PD100W. USB 3.0.webp",
+                         "specs":  "HDMI 4K + USB 3.0 + carga PD100W"
+                     },
+                     {
+                         "id":  5,
+                         "name":  "ADAPTADOR TIPO C A HDMI VGA",
+                         "price":  18,
+                         "category":  "Accesorios",
+                         "badge":  null,
+                         "image":  "Images/ADAPTADOR TIPO C A HDMI. VGA.jpg",
+                         "specs":  "USB-C a HDMI y VGA"
+                     },
+                     {
+                         "id":  6,
+                         "name":  "ADAPTADOR TIPO C A VGA",
+                         "price":  14,
+                         "category":  "Accesorios",
+                         "badge":  null,
+                         "image":  "Images/ADAPTADOR TIPO C A VGA.jpg",
+                         "specs":  "USB-C a VGA 1080p"
+                     },
+                     {
+                         "id":  7,
+                         "name":  "APOLO MORRAL PARA LAPTOP 15 24L NEGRO",
+                         "price":  45,
+                         "category":  "Accesorios",
+                         "badge":  "OFERTA",
+                         "image":  "Images/APOLO MORRAL PARA LAPTOP 15 HASTA 24 LITROS NEGRO.jpg",
+                         "specs":  "Capacidad 24L, impermeable, acolchado"
+                     },
+                     {
+                         "id":  8,
+                         "name":  "AUDIFONOS INALAMBRICOS ONIX",
+                         "price":  55,
+                         "category":  "Audio",
+                         "badge":  "NUEVO",
+                         "image":  "Images/AUDIFONOS INALAMBRICOS ONIX.webp",
+                         "specs":  "Bluetooth 5.0, 20h batería, cancelación ruido"
+                     },
+                     {
+                         "id":  9,
+                         "name":  "AUDIFONOS INALAMBRICOS SONOSPHERE",
+                         "price":  60,
+                         "category":  "Audio",
+                         "badge":  "NUEVO",
+                         "image":  "Images/AUDIFONOS INALAMBRICOS SONOSPHERE.jpg",
+                         "specs":  "Bluetooth 5.2, 30h batería, sonido 360"
+                     },
+                     {
+                         "id":  10,
+                         "name":  "AUDIFONOS INALAMBRICOS SONOSPHERE BLANCO",
+                         "price":  62,
+                         "category":  "Audio",
+                         "badge":  "NUEVO",
+                         "image":  "Images/AUDIFONOS INALAMBRICOS SONOSPHERE BLANCO.webp",
+                         "specs":  "Bluetooth 5.2, 30h, blanco"
+                     },
+                     {
+                         "id":  11,
+                         "name":  "BASE METÁLICA PARA PORTÁTIL CON DOCKING 7 EN 1",
+                         "price":  48,
+                         "category":  "Accesorios",
+                         "badge":  null,
+                         "image":  "Images/BASE METALICA PARA PORTATIL CON DOCKING STATION 7 EN 1.webp",
+                         "specs":  "Base aluminio + hub 7 puertos"
+                     },
+                     {
+                         "id":  12,
+                         "name":  "BASE PARA LAPTOP",
+                         "price":  22,
+                         "category":  "Accesorios",
+                         "badge":  null,
+                         "image":  "Images/BASE PARA LAPTOP.webp",
+                         "specs":  "Aluminio, plegable, ventilación"
+                     },
+                     {
+                         "id":  13,
+                         "name":  "BÁSCULA DIGITAL PARA EQUIPAJE",
+                         "price":  18,
+                         "category":  "Accesorios",
+                         "badge":  null,
+                         "image":  "Images/BÁSCULA DIGITAL PARA EQUIPAJE.jpg",
+                         "specs":  "50kg, LCD, precisa"
+                     },
+                     {
+                         "id":  14,
+                         "name":  "BATERÍA 12V 4.5AH",
+                         "price":  22,
+                         "category":  "Baterías",
+                         "badge":  null,
+                         "image":  "Images/BATERÍA 12V 4.5AH.jpg",
+                         "specs":  "12V 4.5Ah, sellada, libre mantenimiento"
+                     },
+                     {
+                         "id":  15,
+                         "name":  "BATERÍA 12V 7AH",
+                         "price":  28,
+                         "category":  "Baterías",
+                         "badge":  null,
+                         "image":  "Images/BATERÍA 12V 7AH.jpg",
+                         "specs":  "12V 7Ah, sellada, libre mantenimiento"
+                     },
+                     {
+                         "id":  16,
+                         "name":  "BATERÍA 12V 9AH",
+                         "price":  32,
+                         "category":  "Baterías",
+                         "badge":  null,
+                         "image":  "Images/BATERÍA 12V 9AH.jpg",
+                         "specs":  "12V 9Ah, sellada, libre mantenimiento"
+                     },
+                     {
+                         "id":  17,
+                         "name":  "BATERÍA 12V 18AH",
+                         "price":  48,
+                         "category":  "Baterías",
+                         "badge":  null,
+                         "image":  "Images/BATERÍA 12V 18AH.jpg",
+                         "specs":  "12V 18Ah, sellada, libre mantenimiento"
+                     },
+                     {
+                         "id":  18,
+                         "name":  "BELIEVING MAN EAU DE TOILETTE",
+                         "price":  35,
+                         "category":  "Perfumes",
+                         "badge":  "NUEVO",
+                         "image":  "Images/BELIEVING MEN.jpg",
+                         "specs":  "100ml, Eau de Toilette, fresca"
+                     },
+                     {
+                         "id":  19,
+                         "name":  "CABLE DISPLAYPORT A DISPLAYPORT",
+                         "price":  12,
+                         "category":  "Cables",
+                         "badge":  null,
+                         "image":  "Images/CABLE DISPLAYPORT A DISPLAYPORT.jpg",
+                         "specs":  "1.8m, 4K@60Hz"
+                     },
+                     {
+                         "id":  20,
+                         "name":  "CABLE HDMI 2.0",
+                         "price":  10,
+                         "category":  "Cables",
+                         "badge":  null,
+                         "image":  "Images/CABLE HDMI 2.0.jpg",
+                         "specs":  "1.8m, 4K@60Hz, HDMI 2.0"
+                     },
+                     {
+                         "id":  21,
+                         "name":  "CABLE TIPO C A HDMI",
+                         "price":  14,
+                         "category":  "Cables",
+                         "badge":  null,
+                         "image":  "Images/CABLE TIPO C A HDMI.jpg",
+                         "specs":  "1.8m, 4K@60Hz"
+                     },
+                     {
+                         "id":  22,
+                         "name":  "CABLE VGA A VGA",
+                         "price":  8,
+                         "category":  "Cables",
+                         "badge":  null,
+                         "image":  "Images/CABLE VGA A VGA.jpg",
+                         "specs":  "1.8m, VGA"
+                     },
+                     {
+                         "id":  23,
+                         "name":  "CASE GAMING 303",
+                         "price":  85,
+                         "category":  "Gaming",
+                         "badge":  null,
+                         "image":  "Images/CASE GAMING 303.jpg",
+                         "specs":  "ATX, RGB, 4 ventiladores, vidrio templado"
+                     },
+                     {
+                         "id":  24,
+                         "name":  "CASE GAMING 304",
+                         "price":  90,
+                         "category":  "Gaming",
+                         "badge":  null,
+                         "image":  "Images/CASE GAMING 304.jpg",
+                         "specs":  "ATX, RGB, 4 ventiladores, mesh frontal"
+                     },
+                     {
+                         "id":  25,
+                         "name":  "CASE GAMING C16",
+                         "price":  75,
+                         "category":  "Gaming",
+                         "badge":  null,
+                         "image":  "Images/CASE GAMING C16.jpg",
+                         "specs":  "ATX, RGB, 3 ventiladores"
+                     },
+                     {
+                         "id":  26,
+                         "name":  "CASE GAMING E22",
+                         "price":  95,
+                         "category":  "Gaming",
+                         "badge":  null,
+                         "image":  "Images/CASE GAMING E22.jpg",
+                         "specs":  "ATX, RGB, 6 ventiladores, vidrio templado"
+                     },
+                     {
+                         "id":  27,
+                         "name":  "CASE OFFICE M20",
+                         "price":  55,
+                         "category":  "Gaming",
+                         "badge":  null,
+                         "image":  "Images/CASE OFFICE M20.jpg",
+                         "specs":  "ATX, elegante, silencioso"
+                     },
+                     {
+                         "id":  28,
+                         "name":  "CASE OFFICE VC20",
+                         "price":  50,
+                         "category":  "Gaming",
+                         "badge":  null,
+                         "image":  "Images/CASE OFFICE VC20.jpg",
+                         "specs":  "ATX, panel USB 3.0"
+                     },
+                     {
+                         "id":  29,
+                         "name":  "CASE OFICCE F09",
+                         "price":  48,
+                         "category":  "Gaming",
+                         "badge":  null,
+                         "image":  "Images/CASE OFICCE F09.jpg",
+                         "specs":  "ATX, compacto, ventilación óptima"
+                     },
+                     {
+                         "id":  30,
+                         "name":  "CLASIFICADORA CIS DE BILLETES AUTOMÁTICA",
+                         "price":  180,
+                         "category":  "Oficina",
+                         "badge":  "NUEVO",
+                         "image":  "Images/CLASIFICADORA CIS DE BILLETES AUTOMATICA. DENOMINACIONES MIXTAS.jpg",
+                         "specs":  "Detección de denominaciones mixtas, UV/MG/IR"
+                     },
+                     {
+                         "id":  31,
+                         "name":  "COLORFUL ORANGE EAU DE TOILETTE",
+                         "price":  30,
+                         "category":  "Perfumes",
+                         "badge":  "OFERTA",
+                         "image":  "Images/COLORFUL ORANGE.jpg",
+                         "specs":  "100ml, cítrica, vibrante"
+                     },
+                     {
+                         "id":  32,
+                         "name":  "CONTADORA DE BILLETES AUTOMÁTICA",
+                         "price":  120,
+                         "category":  "Oficina",
+                         "badge":  null,
+                         "image":  "Images/CONTADORA DE BILLETES AUTOMATICA.jpg",
+                         "specs":  "Detección UV/MG, 1000 bill/min"
+                     },
+                     {
+                         "id":  33,
+                         "name":  "CORNETA PORTÁTIL 45W",
+                         "price":  50,
+                         "category":  "Audio",
+                         "badge":  null,
+                         "image":  "Images/CORNETA PORTÁTIL 45W.webp",
+                         "specs":  "45W, Bluetooth, USB, TF, FM"
+                     },
+                     {
+                         "id":  34,
+                         "name":  "CORNETA PORTÁTIL 60W",
+                         "price":  65,
+                         "category":  "Audio",
+                         "badge":  null,
+                         "image":  "Images/CORNETA PORTÁTIL 60W.webp",
+                         "specs":  "60W, Bluetooth, USB, TF, FM, RGB"
+                     },
+                     {
+                         "id":  35,
+                         "name":  "CORNETAS RGB USB AUX NEBULA",
+                         "price":  35,
+                         "category":  "Audio",
+                         "badge":  null,
+                         "image":  "Images/CORNETAS RGB USB AUX NEBULA.webp",
+                         "specs":  "2.0, RGB, USB, AUX"
+                     },
+                     {
+                         "id":  36,
+                         "name":  "DETECTOR DE BILLETES AUTOMÁTICO",
+                         "price":  45,
+                         "category":  "Oficina",
+                         "badge":  null,
+                         "image":  "Images/DETECTOR DE BILLETES AUTOMÁTICO.jpg",
+                         "specs":  "Detección UV, MG, tamaño"
+                     },
+                     {
+                         "id":  37,
+                         "name":  "DIFUSOR DE AROMA INTELIGENTE 200ML",
+                         "price":  35,
+                         "category":  "Hogar",
+                         "badge":  null,
+                         "image":  "Images/DIFUSOR DE AROMA INTELIGENTE 200 ML.jpg",
+                         "specs":  "200ml, WiFi, app, temporizador"
+                     },
+                     {
+                         "id":  38,
+                         "name":  "DIFUSOR DE AROMA INTELIGENTE 1000ML",
+                         "price":  55,
+                         "category":  "Hogar",
+                         "badge":  null,
+                         "image":  "Images/DIFUSOR DE AROMA INTELIGENTE 1000 ML.jpg",
+                         "specs":  "1000ml, WiFi, app, gran capacidad"
+                     },
+                     {
+                         "id":  39,
+                         "name":  "DIFUSOR DE AROMA INTELIGENTE 1000ML OV10",
+                         "price":  60,
+                         "category":  "Hogar",
+                         "badge":  null,
+                         "image":  "Images/DIFUSOR DE AROMA INTELIGENTE 1000 ML OV10.jpg",
+                         "specs":  "1000ml, WiFi, app, OV10"
+                     },
+                     {
+                         "id":  40,
+                         "name":  "DISCO DURO DE ESTADO SÓLIDO 1TB",
+                         "price":  89,
+                         "category":  "Almacenamiento",
+                         "badge":  "OFERTA",
+                         "image":  "Images/DISCO DURO DE ESTADO SOLIDO.png",
+                         "specs":  "NVMe, 1TB, lectura 3500MB/s"
+                     },
+                     {
+                         "id":  41,
+                         "name":  "DOCKING STATION 11 EN 1",
+                         "price":  45,
+                         "category":  "Accesorios",
+                         "badge":  "NUEVO",
+                         "image":  "Images/DOCKING STATION 11 EN 1.webp",
+                         "specs":  "HDMI, USB 3.0, SD/TF, PD"
+                     },
+                     {
+                         "id":  42,
+                         "name":  "DOCKING STATION 12 EN 1",
+                         "price":  55,
+                         "category":  "Accesorios",
+                         "badge":  "NUEVO",
+                         "image":  "Images/DOCKING STATION 12 EN 1.webp",
+                         "specs":  "HDMI, VGA, USB 3.0, SD/TF, PD, Ethernet"
+                     },
+                     {
+                         "id":  43,
+                         "name":  "ENCLOSURE M.2 NVMe A USB TIPO C 3.1",
+                         "price":  28,
+                         "category":  "Almacenamiento",
+                         "badge":  null,
+                         "image":  "Images/ENCLOSURE M.2 NVME A SSD TIPO C 3.1.webp",
+                         "specs":  "USB 3.1, NVMe, 10Gbps"
+                     },
+                     {
+                         "id":  44,
+                         "name":  "ENCLOSURE SATA 3 TIPO C HDD USB 3.0",
+                         "price":  20,
+                         "category":  "Almacenamiento",
+                         "badge":  null,
+                         "image":  "Images/ENCLOSURE SATA 3 TIPO C HDD USB 3.0.webp",
+                         "specs":  "USB 3.0, SATA III, 2.5\""
+                     },
+                     {
+                         "id":  45,
+                         "name":  "FUENTE DE PODER 650W",
+                         "price":  55,
+                         "category":  "Gaming",
+                         "badge":  null,
+                         "image":  "Images/FUENTE DE PODER 650W.jpg",
+                         "specs":  "650W, 80 Plus White"
+                     },
+                     {
+                         "id":  46,
+                         "name":  "FUENTE DE PODER 650W RGB",
+                         "price":  65,
+                         "category":  "Gaming",
+                         "badge":  null,
+                         "image":  "Images/FUENTE DE PODER 650W RGB.jpg",
+                         "specs":  "650W, 80 Plus Bronze, RGB"
+                     },
+                     {
+                         "id":  47,
+                         "name":  "FUENTE DE PODER 750W",
+                         "price":  75,
+                         "category":  "Gaming",
+                         "badge":  null,
+                         "image":  "Images/FUENTE DE PODER 750W.jpg",
+                         "specs":  "750W, 80 Plus White"
+                     },
+                     {
+                         "id":  48,
+                         "name":  "FUENTE DE PODER 750W RGB",
+                         "price":  85,
+                         "category":  "Gaming",
+                         "badge":  null,
+                         "image":  "Images/FUENTE DE PODER 750W RGB.jpg",
+                         "specs":  "750W, 80 Plus Bronze, RGB"
+                     },
+                     {
+                         "id":  49,
+                         "name":  "FUNDA BRUMA PARA LAPTOP 14",
+                         "price":  22,
+                         "category":  "Accesorios",
+                         "badge":  null,
+                         "image":  "Images/BRUMA FUNDA PARA LAPTOP 14 NEGRO.jpg",
+                         "specs":  "14\", acolchada, varios colores"
+                     },
+                     {
+                         "id":  50,
+                         "name":  "FUNDA ÓRBITA PARA LAPTOP 14",
+                         "price":  24,
+                         "category":  "Accesorios",
+                         "badge":  "NUEVO",
+                         "image":  "Images/ÓRBITA FUNDA PARA LAPTOP 14 NEGRO.webp",
+                         "specs":  "14\", diseño ergonómico, varios colores"
+                     },
+                     {
+                         "id":  51,
+                         "name":  "LÁMPARA LED DE ESCRITORIO ALÁMBRICA",
+                         "price":  25,
+                         "category":  "Iluminación",
+                         "badge":  null,
+                         "image":  "Images/LÁMPARA LED DE ESCRITORIO ALÁMBRICA.webp",
+                         "specs":  "LED, brazo flexible, 3 modos"
+                     },
+                     {
+                         "id":  52,
+                         "name":  "LÁMPARA LED DE ESCRITORIO CON PUERTO USB BLANCA",
+                         "price":  28,
+                         "category":  "Iluminación",
+                         "badge":  null,
+                         "image":  "Images/LAMPARA LED DE ESCRITORIO CON PUERTO DE CARGA USB BLANCO.jpg",
+                         "specs":  "LED, puerto USB, blanca"
+                     },
+                     {
+                         "id":  53,
+                         "name":  "LÁMPARA LED DE ESCRITORIO CON PUERTO USB NEGRA",
+                         "price":  28,
+                         "category":  "Iluminación",
+                         "badge":  null,
+                         "image":  "Images/LAMPARA LED DE ESCRITORIO CON PUERTO DE CARGA USB NEGRO.jpg",
+                         "specs":  "LED, puerto USB, negra"
+                     },
+                     {
+                         "id":  54,
+                         "name":  "LÁMPARA LED DE ESCRITORIO INALÁMBRICA CON RELOJ",
+                         "price":  32,
+                         "category":  "Iluminación",
+                         "badge":  null,
+                         "image":  "Images/LAMPARA LED DE ESCRITORIO INALÁMBRICA CON RELOJ DIGITAL.webp",
+                         "specs":  "Inalámbrica, reloj digital, LED"
+                     },
+                     {
+                         "id":  55,
+                         "name":  "LÁMPARA LED DE ESCRITORIO RECARGABLE AJUSTABLE",
+                         "price":  26,
+                         "category":  "Iluminación",
+                         "badge":  null,
+                         "image":  "Images/LAMPARA LED DE ESCRITORIO RECARGABLE AJUSTABLE.jpg",
+                         "specs":  "Recargable, ajustable, LED"
+                     },
+                     {
+                         "id":  56,
+                         "name":  "LÁMPARA LED MULTIFUNCIONAL RECARGABLE BLANCA",
+                         "price":  30,
+                         "category":  "Iluminación",
+                         "badge":  null,
+                         "image":  "Images/LÁMPARA LED MULTIFUNCIONAL RECARGABLE BLANCA.jpg",
+                         "specs":  "Multifuncional, recargable, blanca"
+                     },
+                     {
+                         "id":  57,
+                         "name":  "LÁMPARA LED MULTIFUNCIONAL RECARGABLE NEGRA",
+                         "price":  30,
+                         "category":  "Iluminación",
+                         "badge":  null,
+                         "image":  "Images/LÁMPARA LED MULTIFUNCIONAL RECARGABLE NEGRO.jpg",
+                         "specs":  "Multifuncional, recargable, negra"
+                     },
+                     {
+                         "id":  58,
+                         "name":  "MARC JACOBS DAISY EAU DE TOILETTE",
+                         "price":  65,
+                         "category":  "Perfumes",
+                         "badge":  null,
+                         "image":  "Images/MARC JACOBS DAISY.jpg",
+                         "specs":  "75ml, floral, femenina"
+                     },
+                     {
+                         "id":  59,
+                         "name":  "MEMORIAS RAM UDIMM",
+                         "price":  45,
+                         "category":  "Accesorios",
+                         "badge":  null,
+                         "image":  "Images/memorias udimm.jpg",
+                         "specs":  "DDR4, 8GB, 3200MHz"
+                     },
+                     {
+                         "id":  60,
+                         "name":  "MESA GAMING AJUSTABLE CON ILUMINACIÓN LED",
+                         "price":  180,
+                         "category":  "Gaming",
+                         "badge":  "NUEVO",
+                         "image":  "Images/MESA GAMING AJUSTABLE CON ILUMINACIÓN LED.webp",
+                         "specs":  "Ajustable altura, LED RGB, 120cm"
+                     },
+                     {
+                         "id":  61,
+                         "name":  "MESA GAMING FIJA CON ILUMINACIÓN LED",
+                         "price":  140,
+                         "category":  "Gaming",
+                         "badge":  null,
+                         "image":  "Images/MESA GAMING FIJA CON ILUMINACIÓN LED.webp",
+                         "specs":  "LED RGB, 120cm, soporte posavasos"
+                     },
+                     {
+                         "id":  62,
+                         "name":  "MICRÓFONO RGB XLR USB AURA ASTRA",
+                         "price":  65,
+                         "category":  "Audio",
+                         "badge":  "OFERTA",
+                         "image":  "Images/MICRÓFONO RGB XLR  USB C AURA ASTRA.jpg",
+                         "specs":  "XLR/USB, RGB, condensador, brazo incluido"
+                     },
+                     {
+                         "id":  63,
+                         "name":  "MONITOR 21.5\" 2152RBB",
+                         "price":  130,
+                         "category":  "Monitores",
+                         "badge":  null,
+                         "image":  "Images/MONITOR 2152RBB 21.5 DELANTERA.png",
+                         "specs":  "21.5\", IPS, 75Hz, Full HD"
+                     },
+                     {
+                         "id":  64,
+                         "name":  "MONITOR 23.8\" 2382RBB",
+                         "price":  150,
+                         "category":  "Monitores",
+                         "badge":  null,
+                         "image":  "Images/MONITOR  2382RBB 23.8 DELANTERA.png",
+                         "specs":  "23.8\", IPS, 75Hz, Full HD"
+                     },
+                     {
+                         "id":  65,
+                         "name":  "MONITOR 23.6\" CURVO",
+                         "price":  170,
+                         "category":  "Monitores",
+                         "badge":  null,
+                         "image":  "Images/MONITOR 23.6 CURVE DELANTERA.png",
+                         "specs":  "23.6\", Curvo, 75Hz, Full HD"
+                     },
+                     {
+                         "id":  66,
+                         "name":  "MONITOR 27\" CURVO",
+                         "price":  220,
+                         "category":  "Monitores",
+                         "badge":  "OFERTA",
+                         "image":  "Images/MONITOR 27 CURVO DELANTERA.png",
+                         "specs":  "27\", Curvo, 144Hz, 1ms"
+                     },
+                     {
+                         "id":  67,
+                         "name":  "MONITOR 27\" PLANO",
+                         "price":  185,
+                         "category":  "Monitores",
+                         "badge":  null,
+                         "image":  "Images/MONITOR 27 PLANO DELANTERA.png",
+                         "specs":  "27\", IPS, 75Hz, Full HD"
+                     },
+                     {
+                         "id":  68,
+                         "name":  "MONITOR 27\" 2702BXF",
+                         "price":  200,
+                         "category":  "Monitores",
+                         "badge":  null,
+                         "image":  "Images/MONITOR 2702BXF 27 DELANTERA.png",
+                         "specs":  "27\", IPS, 100Hz, Full HD"
+                     },
+                     {
+                         "id":  69,
+                         "name":  "MONITOR 27\" CURVO 2708JXH",
+                         "price":  240,
+                         "category":  "Monitores",
+                         "badge":  "NUEVO",
+                         "image":  "Images/MONITOR 2708JXH 27 CURVE DELANTERA.png",
+                         "specs":  "27\", Curvo, 144Hz, 1ms"
+                     },
+                     {
+                         "id":  70,
+                         "name":  "MONITOR 31.5\"",
+                         "price":  280,
+                         "category":  "Monitores",
+                         "badge":  null,
+                         "image":  "Images/MONITOR 31.5 DELANTERA.png",
+                         "specs":  "31.5\", IPS, 75Hz, Full HD"
+                     },
+                     {
+                         "id":  71,
+                         "name":  "MONITOR 34\" CURVO ULTRAWIDE",
+                         "price":  380,
+                         "category":  "Monitores",
+                         "badge":  "NUEVO",
+                         "image":  "Images/MONITOR 34 CURVO DELANTERA.png",
+                         "specs":  "34\", Ultrawide Curvo, 144Hz"
+                     },
+                     {
+                         "id":  72,
+                         "name":  "MOUSE ALÁMBRICO GM124BK",
+                         "price":  10,
+                         "category":  "Accesorios",
+                         "badge":  null,
+                         "image":  "Images/MOUSE ALÁMBRICO GM124BK.jpg",
+                         "specs":  "Óptico, 1000 DPI, cable USB"
+                     },
+                     {
+                         "id":  73,
+                         "name":  "MOUSE GAMING RGB GM314BK",
+                         "price":  20,
+                         "category":  "Accesorios",
+                         "badge":  null,
+                         "image":  "Images/MOUSE GAMING RGB GM314BK.jpg",
+                         "specs":  "RGB, 3200 DPI, 6 botones"
+                     },
+                     {
+                         "id":  74,
+                         "name":  "MOUSE GAMING RGB GM320",
+                         "price":  24,
+                         "category":  "Accesorios",
+                         "badge":  null,
+                         "image":  "Images/MOUSE GAMING RGB GM320.jpg",
+                         "specs":  "RGB, 6400 DPI, ergonómico"
+                     },
+                     {
+                         "id":  75,
+                         "name":  "MOUSE GAMING RGB GM520",
+                         "price":  28,
+                         "category":  "Accesorios",
+                         "badge":  "OFERTA",
+                         "image":  "Images/MOUSE GAMING RGB GM520.jpg",
+                         "specs":  "6400 DPI, RGB, 6 botones"
+                     },
+                     {
+                         "id":  76,
+                         "name":  "MOUSE INALÁMBRICO GW224BK",
+                         "price":  15,
+                         "category":  "Accesorios",
+                         "badge":  null,
+                         "image":  "Images/MOUSE INALÁMBRICO GW224BK.jpg",
+                         "specs":  "Inalámbrico 2.4GHz, 1200 DPI"
+                     },
+                     {
+                         "id":  77,
+                         "name":  "MOUSE INALÁMBRICO RECARGABLE 512W",
+                         "price":  18,
+                         "category":  "Accesorios",
+                         "badge":  null,
+                         "image":  "Images/MOUSE INALAMBRICO RECARGABLE 512W.jpg",
+                         "specs":  "Recargable, 1600 DPI, silencioso"
+                     },
+                     {
+                         "id":  78,
+                         "name":  "PARADISE BAY EAU DE TOILETTE",
+                         "price":  32,
+                         "category":  "Perfumes",
+                         "badge":  null,
+                         "image":  "Images/PARADISE BAY.jpg",
+                         "specs":  "100ml, fresca, acuática"
+                     },
+                     {
+                         "id":  79,
+                         "name":  "PENDRIVE DUAL SLIM",
+                         "price":  18,
+                         "category":  "Almacenamiento",
+                         "badge":  null,
+                         "image":  "Images/PENDRIVE DUAL SLIM.webp",
+                         "specs":  "64GB, USB-A + USB-C"
+                     },
+                     {
+                         "id":  80,
+                         "name":  "PRESENTADOR INALÁMBRICO",
+                         "price":  25,
+                         "category":  "Accesorios",
+                         "badge":  null,
+                         "image":  "Images/PRESENTADOR INALÁMBRICO.jpg",
+                         "specs":  "Inalámbrico, alcance 15m, puntero láser"
+                     },
+                     {
+                         "id":  81,
+                         "name":  "REFRIGERACIÓN LÍQUIDA",
+                         "price":  75,
+                         "category":  "Gaming",
+                         "badge":  null,
+                         "image":  "Images/refrigeración liquida.webp",
+                         "specs":  "120mm, RGB, disipación 150W"
+                     },
+                     {
+                         "id":  82,
+                         "name":  "REGLETA PROTECTORA 5 TOMAS",
+                         "price":  16,
+                         "category":  "Accesorios",
+                         "badge":  null,
+                         "image":  "Images/REGLETA PROTECTORA 5 TOMAS.jpg",
+                         "specs":  "5 tomas, protector, 1.5m"
+                     },
+                     {
+                         "id":  83,
+                         "name":  "REGLETA PROTECTORA 8 TOMAS",
+                         "price":  22,
+                         "category":  "Accesorios",
+                         "badge":  null,
+                         "image":  "Images/REGLETA PROTECTORA 8 TOMAS.jpg",
+                         "specs":  "8 tomas, protector, interruptor"
+                     },
+                     {
+                         "id":  84,
+                         "name":  "SOFT AS WATER EAU DE TOILETTE",
+                         "price":  30,
+                         "category":  "Perfumes",
+                         "badge":  null,
+                         "image":  "Images/SOFT AS WATER.jpg",
+                         "specs":  "100ml, suave, floral"
+                     },
+                     {
+                         "id":  85,
+                         "name":  "SOPLADOR DE AIRE COMPRIMIDO INALÁMBRICO",
+                         "price":  35,
+                         "category":  "Accesorios",
+                         "badge":  null,
+                         "image":  "Images/SOPLADOR DE AIRE COMPRIMIDO INALÁMBRICO.jpg",
+                         "specs":  "Recargable, 3 velocidades, 8000RPM"
+                     },
+                     {
+                         "id":  86,
+                         "name":  "SOPORTE DE PARED FIJA PARA TV 37-86\"",
+                         "price":  30,
+                         "category":  "Soportes",
+                         "badge":  null,
+                         "image":  "Images/Soporte DE PARED FIJA PARA TV 37 86 45KG.jpg",
+                         "specs":  "Fijo, 37-86\", 45kg"
+                     },
+                     {
+                         "id":  87,
+                         "name":  "SOPORTE DE PARED INCLINABLE PARA TV 37-80\"",
+                         "price":  38,
+                         "category":  "Soportes",
+                         "badge":  null,
+                         "image":  "Images/soporte DE PARED INCLINABLE PARA TV 37 80 40KG.jpg",
+                         "specs":  "Inclinable, 37-80\", 40kg"
+                     },
+                     {
+                         "id":  88,
+                         "name":  "SOPORTE DE PARED INCLINABLE PARA TV 32-75\"",
+                         "price":  35,
+                         "category":  "Soportes",
+                         "badge":  null,
+                         "image":  "Images/Soporte E PARED INCLINABLE PARA TV 32 75 45KG.jpg",
+                         "specs":  "Inclinable, 32-75\", 45kg"
+                     },
+                     {
+                         "id":  89,
+                         "name":  "SOPORTE GIRATORIO MULTIUSO",
+                         "price":  20,
+                         "category":  "Soportes",
+                         "badge":  null,
+                         "image":  "Images/SOPORTE GIRATORIO MULTIUSO.jpg",
+                         "specs":  "Giratorio, múltiples ángulos"
+                     },
+                     {
+                         "id":  90,
+                         "name":  "SOPORTE MAGNÉTICO ADHESIVO PARA CABLES",
+                         "price":  10,
+                         "category":  "Soportes",
+                         "badge":  null,
+                         "image":  "Images/SOPORTE MAGNÉTICO ADHESIVO PARA CABLES.jpg",
+                         "specs":  "Adhesivo, magnético, gestión cables"
+                     },
+                     {
+                         "id":  91,
+                         "name":  "SOPORTE PARA MONITOR AJUSTABLE 17-32\"",
+                         "price":  45,
+                         "category":  "Soportes",
+                         "badge":  null,
+                         "image":  "Images/Soporte para Monitor Ajustable de Acero 17 32.jpg",
+                         "specs":  "Ajustable, acero, 17-32\""
+                     },
+                     {
+                         "id":  92,
+                         "name":  "SOPORTE PARA MONITOR Y LAPTOP AJUSTABLE",
+                         "price":  55,
+                         "category":  "Soportes",
+                         "badge":  null,
+                         "image":  "Images/Soporte para Monitor y Laptop Ajustable de Acero.jpg",
+                         "specs":  "Dual, ajustable, acero"
+                     },
+                     {
+                         "id":  93,
+                         "name":  "SWEET BOUQUET EAU DE TOILETTE",
+                         "price":  30,
+                         "category":  "Perfumes",
+                         "badge":  "NUEVO",
+                         "image":  "Images/sweet bouquet.jpg",
+                         "specs":  "100ml, dulce, romántica"
+                     },
+                     {
+                         "id":  94,
+                         "name":  "TARJETA DE RED",
+                         "price":  15,
+                         "category":  "Redes",
+                         "badge":  null,
+                         "image":  "Images/TARJETA DE RED.jpg",
+                         "specs":  "PCIe, Gigabit Ethernet"
+                     },
+                     {
+                         "id":  95,
+                         "name":  "TARJETA MADRE H610",
+                         "price":  85,
+                         "category":  "Gaming",
+                         "badge":  null,
+                         "image":  "Images/TARJETA MADRE H610.jpg",
+                         "specs":  "LGA1700, DDR4, M.2"
+                     },
+                     {
+                         "id":  96,
+                         "name":  "TECLADO ALÁMBRICO K10",
+                         "price":  25,
+                         "category":  "Accesorios",
+                         "badge":  null,
+                         "image":  "Images/TECLADO ALÁMBRICO K10.jpg",
+                         "specs":  "Multimedia, membrana, USB"
+                     },
+                     {
+                         "id":  97,
+                         "name":  "TECLADO Y MOUSE ALÁMBRICO K11",
+                         "price":  30,
+                         "category":  "Accesorios",
+                         "badge":  null,
+                         "image":  "Images/TECLADO Y MOUSE ALÁMBRICO K11.jpg",
+                         "specs":  "Kit membrana + mouse óptico"
+                     },
+                     {
+                         "id":  98,
+                         "name":  "TECLADO Y MOUSE INALÁMBRICO 2.4G K13",
+                         "price":  35,
+                         "category":  "Accesorios",
+                         "badge":  "NUEVO",
+                         "image":  "Images/TECLADO Y MOUSE INALÁMBRICO 2.4G K13.jpg",
+                         "specs":  "Kit inalámbrico 2.4GHz"
+                     },
+                     {
+                         "id":  99,
+                         "name":  "TOMA CORRIENTE PROTECTOR 6 TOMAS",
+                         "price":  18,
+                         "category":  "Accesorios",
+                         "badge":  null,
+                         "image":  "Images/TOMA CORRIENTE PROTECTOR 6 TOMAS.jpg",
+                         "specs":  "6 tomas, protector, cable 1.5m"
+                     },
+                     {
+                         "id":  100,
+                         "name":  "UPS 500VA 300W",
+                         "price":  45,
+                         "category":  "Seguridad",
+                         "badge":  null,
+                         "image":  "Images/UPS 500VA 300W.jpg",
+                         "specs":  "500VA/300W, 2 tomas"
+                     },
+                     {
+                         "id":  101,
+                         "name":  "UPS 650VA 360W",
+                         "price":  55,
+                         "category":  "Seguridad",
+                         "badge":  null,
+                         "image":  "Images/UPS 650VA 360W.jpg",
+                         "specs":  "650VA/360W, 4 tomas"
+                     },
+                     {
+                         "id":  102,
+                         "name":  "UPS 800VA 480W",
+                         "price":  75,
+                         "category":  "Seguridad",
+                         "badge":  null,
+                         "image":  "Images/UPS 800VA 480W.jpg",
+                         "specs":  "800VA/480W, 4 tomas, LCD"
+                     },
+                     {
+                         "id":  103,
+                         "name":  "UPS 850VA 480W",
+                         "price":  80,
+                         "category":  "Seguridad",
+                         "badge":  null,
+                         "image":  "Images/UPS 850VA 480W.jpg",
+                         "specs":  "850VA/480W, 4 tomas, LCD"
+                     },
+                     {
+                         "id":  104,
+                         "name":  "UPS 1000VA 600W",
+                         "price":  95,
+                         "category":  "Seguridad",
+                         "badge":  "OFERTA",
+                         "image":  "Images/UPS 1000VA 600W.jpg",
+                         "specs":  "1000VA/600W, 8 tomas, LCD"
+                     },
+                     {
+                         "id":  105,
+                         "name":  "UPS 1500VA 900W",
+                         "price":  130,
+                         "category":  "Seguridad",
+                         "badge":  null,
+                         "image":  "Images/UPS 1500VA 900W.jpg",
+                         "specs":  "1500VA/900W, 8 tomas, LCD"
+                     },
+                     {
+                         "id":  106,
+                         "name":  "UPS 2000VA 1200W",
+                         "price":  165,
+                         "category":  "Seguridad",
+                         "badge":  null,
+                         "image":  "Images/UPS 2000VA 1200W.jpg",
+                         "specs":  "2000VA/1200W, 8 tomas, LCD"
+                     },
+                     {
+                         "id":  107,
+                         "name":  "UPS 2KVA 1200W",
+                         "price":  170,
+                         "category":  "Seguridad",
+                         "badge":  null,
+                         "image":  "Images/UPS 2KVA 1200W.jpg",
+                         "specs":  "2KVA/1200W, 8 tomas, LCD"
+                     },
+                     {
+                         "id":  108,
+                         "name":  "UPS 3000VA 1800W",
+                         "price":  220,
+                         "category":  "Seguridad",
+                         "badge":  null,
+                         "image":  "Images/UPS 3000VA 1800W.jpg",
+                         "specs":  "3000VA/1800W, 8 tomas, LCD"
+                     },
+                     {
+                         "id":  109,
+                         "name":  "UPS 3KVA 1800W",
+                         "price":  230,
+                         "category":  "Seguridad",
+                         "badge":  null,
+                         "image":  "Images/UPS 3KVA 1800W.jpg",
+                         "specs":  "3KVA/1800W, 8 tomas, LCD"
+                     },
+                     {
+                         "id":  110,
+                         "name":  "VECTOR MORRAL PARA LAPTOP 15 19L",
+                         "price":  38,
+                         "category":  "Accesorios",
+                         "badge":  null,
+                         "image":  "Images/VECTOR MORRAL PARA LAPTOP 15 HASTA 19 LITROS NEGRO.jpg",
+                         "specs":  "19L, varios colores, acolchado"
+                     }
+                 ]
+}
