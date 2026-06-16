@@ -32,7 +32,7 @@ export default function Header() {
     <header className="sticky top-0 z-50 glass border-b border-white/10">
       <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between gap-4">
         <a href="/" className="flex items-center gap-3 flex-shrink-0 group">
-          <img src={logoSrc} alt="InnovaLink" className="h-[52px] w-auto transition-transform duration-300 group-hover:scale-105" />
+          <img src={logoSrc} alt="InnovaLink" className="h-[68px] w-auto transition-transform duration-300 group-hover:scale-105" />
         </a>
 
         <div className="flex-1 max-w-md relative" ref={ref}>

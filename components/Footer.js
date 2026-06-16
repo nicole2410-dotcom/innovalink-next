@@ -14,7 +14,7 @@ export default function Footer() {
             <img
               src={theme === "light" ? "/Images/innovalink_claro.png" : "/Images/innovalink - Editado.png"}
               alt="InnovaLink"
-              className="h-10 w-auto"
+              className="h-14 w-auto"
               onError={(e) => { e.target.style.display = "none"; }}
             />
             <p className="text-sm text-gray-400 leading-relaxed">
