@@ -24,7 +24,7 @@ export default function QuickViewModal() {
           />
           <button
             onClick={() => setQuickView(null)}
-            className="absolute top-3 right-3 w-8 h-8 rounded-full bg-black/60 text-white flex items-center justify-center hover:bg-vino transition-colors"
+            className="absolute top-3 right-3 w-8 h-8 rounded-full bg-black/60 text-[#fff] flex items-center justify-center hover:bg-vino transition-colors"
           >
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
