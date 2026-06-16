@@ -45,6 +45,11 @@ export function StoreProvider({ children }) {
   const [chatOpen, setChatOpen] = useState(false);
 
   useEffect(() => {
+    const initialTheme = document.documentElement.classList.contains("light") ? "light" : "dark";
+    setTheme(initialTheme);
+  }, []);
+
+  useEffect(() => {
     if (loaded.current) return;
     loaded.current = true;
     setCart(storageGet(LS.cart, []));
@@ -55,7 +60,6 @@ export function StoreProvider({ children }) {
     setCompare(storageGet(LS.compare, []));
     setRecentlyViewed(storageGet(LS.recent, []));
     setCoupons(storageGet(LS.coupons, []));
-    setTheme(storageGet(LS.theme, "dark"));
 
     fetch("/productos.json")
       .then((r) => r.json())

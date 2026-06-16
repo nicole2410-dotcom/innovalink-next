@@ -21,14 +21,14 @@ export default function ChatWidget() {
       {chatOpen && (
         <div className="fixed bottom-24 left-6 z-50 w-80 glass-card overflow-hidden animate-fade-in-up">
           <div className="p-4 border-b border-white/10 bg-gradient-to-r from-vino to-vino-light">
-            <p className="text-white font-semibold text-sm">Soporte InnovaLink</p>
-            <p className="text-xs text-white/70">Respondemos en minutos</p>
+            <p className="text-[#fff] font-semibold text-sm">Soporte InnovaLink</p>
+            <p className="text-xs text-[#ffffffb3]">Respondemos en minutos</p>
           </div>
           <div className="p-4 h-64 overflow-y-auto space-y-3 scrollbar-thin">
             <div className="flex items-start gap-2">
               <div className="w-8 h-8 rounded-full bg-dorado flex items-center justify-center text-black text-xs font-bold flex-shrink-0">IL</div>
               <div className="bg-white/10 rounded-xl rounded-tl-none px-3 py-2 max-w-[80%]">
-                <p className="text-xs text-white">¡Hola! ¿En qué podemos ayudarte?</p>
+                <p className="text-xs text-[#fff]">¡Hola! ¿En qué podemos ayudarte?</p>
               </div>
             </div>
           </div>

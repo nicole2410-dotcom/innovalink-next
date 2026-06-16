@@ -18,7 +18,7 @@ export default function FloatingButtons() {
         href="https://wa.me/584129580968"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-[#25D366] flex items-center justify-center text-white text-2xl shadow-lg shadow-black/30 hover:scale-105 hover:bg-[#20b859] transition-all duration-300"
+        className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-[#25D366] flex items-center justify-center text-[#fff] text-2xl shadow-lg shadow-black/30 hover:scale-105 hover:bg-[#20b859] transition-all duration-300"
         aria-label="WhatsApp"
       >
         <i className="fab fa-whatsapp" />

@@ -89,7 +89,7 @@ export default function Header() {
             <svg className="w-5 h-5 text-gray-300 group-hover:text-dorado transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
             </svg>
-            {wishlist.length > 0 && <span className="absolute -top-0.5 -right-0.5 w-4.5 h-4.5 rounded-full bg-vino text-white text-[10px] flex items-center justify-center font-bold">{wishlist.length}</span>}
+            {wishlist.length > 0 && <span className="absolute -top-0.5 -right-0.5 w-4.5 h-4.5 rounded-full bg-vino text-[#fff] text-[10px] flex items-center justify-center font-bold">{wishlist.length}</span>}
           </a>
           <button onClick={() => setCartOpen(!cartOpen)} className="relative p-2.5 rounded-xl hover:bg-white/5 transition-colors group">
             <svg className="w-5 h-5 text-gray-300 group-hover:text-dorado transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">

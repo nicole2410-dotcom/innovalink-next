@@ -18,10 +18,10 @@ export default function Footer() {
               Tecnología premium con dropshipping en Venezuela.
             </p>
             <div className="flex gap-3">
-              <a href="https://wa.me/584129580968" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-vino hover:text-white transition-all duration-300" aria-label="WhatsApp"><i className="fab fa-whatsapp" /></a>
-              <a href="#" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-vino hover:text-white transition-all duration-300" aria-label="Instagram"><i className="fab fa-instagram" /></a>
-              <a href="#" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-vino hover:text-white transition-all duration-300" aria-label="Facebook"><i className="fab fa-facebook-f" /></a>
-              <a href="#" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-vino hover:text-white transition-all duration-300" aria-label="TikTok"><i className="fab fa-tiktok" /></a>
+              <a href="https://wa.me/584129580968" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-vino hover:text-[#fff] transition-all duration-300" aria-label="WhatsApp"><i className="fab fa-whatsapp" /></a>
+              <a href="#" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-vino hover:text-[#fff] transition-all duration-300" aria-label="Instagram"><i className="fab fa-instagram" /></a>
+              <a href="#" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-vino hover:text-[#fff] transition-all duration-300" aria-label="Facebook"><i className="fab fa-facebook-f" /></a>
+              <a href="#" target="_blank" rel="noopener noreferrer" className="w-9 h-9 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:bg-vino hover:text-[#fff] transition-all duration-300" aria-label="TikTok"><i className="fab fa-tiktok" /></a>
             </div>
           </div>
           <div>

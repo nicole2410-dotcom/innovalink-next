@@ -130,10 +130,10 @@ export default function HomePage() {
               </h1>
               <p className="text-gray-400 text-lg md:text-xl max-w-lg leading-relaxed mb-8">Equipos de alta gama con garantía, asesoría especializada y envío directo a Venezuela.</p>
               <div className="flex items-center gap-4 flex-wrap">
-                <a href="#productos" className="px-8 py-3 rounded-full bg-gradient-to-r from-vino to-vino-light text-white font-bold hover:from-vino-light hover:to-vino transition-all duration-300 shadow-lg shadow-vino/20 hover:shadow-vino/40 hover:-translate-y-1 inline-flex items-center gap-2">
+                <a href="#productos" className="px-8 py-3 rounded-full bg-gradient-to-r from-vino to-vino-light text-[#fff] font-bold hover:from-vino-light hover:to-vino transition-all duration-300 shadow-lg shadow-vino/20 hover:shadow-vino/40 hover:-translate-y-1 inline-flex items-center gap-2">
                   <i className="fas fa-store" /> Explorar
                 </a>
-                <a href="#contacto" className="px-8 py-3 rounded-full border-2 border-vino text-vino font-bold hover:bg-vino hover:text-white transition-all duration-300 hover:-translate-y-1 inline-flex items-center gap-2">
+                <a href="#contacto" className="px-8 py-3 rounded-full border-2 border-vino text-vino font-bold hover:bg-vino hover:text-[#fff] transition-all duration-300 hover:-translate-y-1 inline-flex items-center gap-2">
                   <i className="fas fa-tag" /> Ofertas
                 </a>
               </div>
@@ -152,7 +152,7 @@ export default function HomePage() {
         <RevealSection>
           <div className="max-w-7xl mx-auto px-4 pb-8">
             <div className="promo-banner rounded-2xl px-6 py-4 flex items-center justify-between flex-wrap gap-3">
-              <div className="flex items-center gap-3 text-white font-semibold relative z-10">
+              <div className="flex items-center gap-3 text-[#fff] font-semibold relative z-10">
                 <i className="fas fa-fire text-dorado animate-pulse" />
                 Dropshipping directo — Envío gratis a toda Venezuela
               </div>

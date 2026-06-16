@@ -173,14 +173,22 @@ export default function ProductoPage() {
               </button>
             </div>
             {/* Specifications */}
-            {product.specs?.length > 0 && (
+            {product.specs && (
               <div className="specs-section">
                 <h4><i className="fas fa-list-check mr-2 text-dorado" />Especificaciones técnicas</h4>
-                <ul className="specs-list">
-                  {product.specs.map((spec, i) => (
-                    <li key={i}><strong>{spec.label || spec.name}:</strong> {spec.value}</li>
-                  ))}
-                </ul>
+                {Array.isArray(product.specs) ? (
+                  <ul className="specs-list">
+                    {product.specs.map((spec, i) => (
+                      <li key={i}><strong>{spec.label || spec.name}:</strong> {spec.value}</li>
+                    ))}
+                  </ul>
+                ) : (
+                  <ul className="specs-list">
+                    {product.specs.split(",").map((s, i) => (
+                      <li key={i}>{s.trim()}</li>
+                    ))}
+                  </ul>
+                )}
               </div>
             )}
             {product.features?.length > 0 && !product.specs && (

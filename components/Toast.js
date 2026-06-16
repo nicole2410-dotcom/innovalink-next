@@ -10,7 +10,7 @@ export default function Toast() {
 
   return (
     <div className="fixed bottom-6 right-6 z-50 animate-fade-in-up">
-      <div className={`${bg} text-white px-6 py-3 rounded-xl shadow-2xl flex items-center gap-3`}>
+      <div className={`${bg} text-[#fff] px-6 py-3 rounded-xl shadow-2xl flex items-center gap-3`}>
         {toast.type === "success" && (
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />

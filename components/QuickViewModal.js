@@ -47,7 +47,7 @@ export default function QuickViewModal() {
           )}
           <button
             onClick={() => { window.location.href = `/producto/${quickView.id}`; }}
-            className="w-full py-3 rounded-xl bg-gradient-to-r from-vino to-vino-light text-white font-semibold hover:from-vino-light hover:to-vino transition-all duration-300"
+            className="w-full py-3 rounded-xl bg-gradient-to-r from-vino to-vino-light text-[#fff] font-semibold hover:from-vino-light hover:to-vino transition-all duration-300"
           >
             Ver detalle completo
           </button>

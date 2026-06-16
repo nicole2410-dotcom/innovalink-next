@@ -31,8 +31,8 @@ export default function ProductCard({ product, index = 0 }) {
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
         {/* Badges */}
         <div className="absolute top-2 left-2 flex flex-col gap-1">
-          {isFlash && <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-gradient-to-r from-dorado to-vino text-white animate-pulse">🔥 FLASH</span>}
-          {product.oldPrice && <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-vino text-white">-{Math.round((1 - product.price / product.oldPrice) * 100)}%</span>}
+          {isFlash && <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-gradient-to-r from-dorado to-vino text-[#fff] animate-pulse">🔥 FLASH</span>}
+          {product.oldPrice && <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-vino text-[#fff]">-{Math.round((1 - product.price / product.oldPrice) * 100)}%</span>}
           {product.badge && <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-dorado text-black">{product.badge}</span>}
         </div>
         <button onClick={(e) => { e.stopPropagation(); toggleWishlist(product.id); }} className={`absolute top-2 right-2 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 z-10 ${inWish ? "bg-dorado text-black scale-110" : "bg-black/50 text-white hover:bg-dorado hover:text-black hover:scale-110"}`}>

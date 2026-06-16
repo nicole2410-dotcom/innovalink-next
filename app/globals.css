@@ -1,25 +1,113 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-background: #0a0a0a;
-  --color-foreground: #ededed;
   --color-vino: #6a060c;
   --color-vino-light: #8a1a20;
   --color-dorado: #f5b342;
   --color-dorado-dark: #d4912f;
-  --color-dark-800: #1a1a1a;
-  --color-dark-700: #222;
-  --color-dark-600: #2a2a2a;
-  --color-dark-500: #333;
-  --color-dark-400: #444;
+  --color-dark-800: var(--bg-surface);
+  --color-dark-700: var(--bg-surface-2);
+  --color-dark-600: var(--bg-surface-3);
+  --color-dark-500: var(--bg-surface-4);
+  --color-dark-400: var(--bg-surface-5);
+  --color-white: var(--text-primary);
+  --color-black: var(--bg-primary);
+  --color-gray-50: var(--text-primary);
+  --color-gray-100: var(--text-primary);
+  --color-gray-200: var(--text-secondary);
+  --color-gray-300: var(--text-secondary);
+  --color-gray-400: var(--text-muted);
+  --color-gray-500: var(--text-dim);
+  --color-gray-600: var(--text-faint);
+  --color-gray-700: var(--text-very-faint);
   --font-sans: system-ui, -apple-system, sans-serif;
-  --color-glass: rgba(255, 255, 255, 0.05);
-  --color-glass-border: rgba(255, 255, 255, 0.1);
+}
+
+:root {
+  --bg-primary: #0a0a0a;
+  --bg-surface: #1a1a1a;
+  --bg-surface-2: #222;
+  --bg-surface-3: #2a2a2a;
+  --bg-surface-4: #333;
+  --bg-surface-5: #444;
+  --bg-surface-hover: rgba(255,255,255,0.05);
+  --text-primary: #ededed;
+  --text-secondary: #d1d5db;
+  --text-muted: #9ca3af;
+  --text-dim: #6b7280;
+  --text-faint: #4b5563;
+  --text-very-faint: #374151;
+  --border-color: rgba(255,255,255,0.1);
+  --border-color-2: rgba(255,255,255,0.06);
+  --glass-bg: rgba(255,255,255,0.05);
+  --glass-hover: rgba(255,255,255,0.08);
+  --contact-input-bg: rgba(255,255,255,0.05);
+  --contact-input-border: rgba(255,255,255,0.1);
+  --contact-input-text: #fff;
+  --specs-border: rgba(255,255,255,0.1);
+  --specs-item-border: rgba(255,255,255,0.04);
+  --brand-item-bg: rgba(255,255,255,0.03);
+  --brand-item-border: rgba(255,255,255,0.05);
+  --brand-item-color: #aaa;
+  --stat-text: #888;
+  --contact-desc: #aaa;
+  --hero-gradient-bg: radial-gradient(circle at 30% 10%, rgba(106,6,12,0.2), transparent 50%);
+  --hero-grid-opacity: 0.03;
+  --payment-icon-color: #666;
+  --specs-text: #aaa;
+  --specs-label: #ddd;
+  --scrollbar-thumb: #444;
+  --scrollbar-thumb-hover: #666;
+  --suggestions-bg: #1a1a1a;
+  --pill-bg: rgba(255,255,255,0.05);
+  --pill-border: rgba(255,255,255,0.1);
+  --pill-color: #ccc;
+}
+
+.light {
+  --bg-primary: #f0f2f5;
+  --bg-surface: #ffffff;
+  --bg-surface-2: #f5f5f5;
+  --bg-surface-3: #e8e8e8;
+  --bg-surface-4: #ddd;
+  --bg-surface-5: #ccc;
+  --bg-surface-hover: rgba(0,0,0,0.04);
+  --text-primary: #1a1a1a;
+  --text-secondary: #333;
+  --text-muted: #666;
+  --text-dim: #888;
+  --text-faint: #aaa;
+  --text-very-faint: #ccc;
+  --border-color: rgba(0,0,0,0.1);
+  --border-color-2: rgba(0,0,0,0.06);
+  --glass-bg: rgba(255,255,255,0.7);
+  --glass-hover: rgba(255,255,255,0.9);
+  --contact-input-bg: #fff;
+  --contact-input-border: rgba(0,0,0,0.15);
+  --contact-input-text: #1a1a1a;
+  --specs-border: rgba(0,0,0,0.1);
+  --specs-item-border: rgba(0,0,0,0.04);
+  --brand-item-bg: rgba(255,255,255,0.8);
+  --brand-item-border: rgba(0,0,0,0.08);
+  --brand-item-color: #555;
+  --stat-text: #888;
+  --contact-desc: #666;
+  --hero-gradient-bg: radial-gradient(circle at 30% 10%, rgba(245,179,66,0.15), transparent 50%);
+  --hero-grid-opacity: 0.05;
+  --payment-icon-color: #999;
+  --specs-text: #555;
+  --specs-label: #333;
+  --scrollbar-thumb: #bbb;
+  --scrollbar-thumb-hover: #999;
+  --suggestions-bg: #ffffff;
+  --pill-bg: rgba(0,0,0,0.05);
+  --pill-border: rgba(0,0,0,0.1);
+  --pill-color: #555;
 }
 
 body {
-  background: #0a0a0a;
-  color: #ededed;
+  background: var(--bg-primary);
+  color: var(--text-primary);
   font-family: system-ui, -apple-system, sans-serif;
 }
 
@@ -73,14 +161,14 @@ body {
 
 /* ─── Glass ─── */
 .glass {
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--glass-bg);
   backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--border-color);
 }
 .glass-card {
-  background: linear-gradient(135deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
+  background: linear-gradient(135deg, var(--glass-bg), rgba(128,128,128,0.03));
   backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--border-color);
   border-radius: 16px;
   transition: all 0.3s ease;
 }
@@ -111,14 +199,14 @@ body {
 /* ─── Scrollbar ─── */
 .scrollbar-thin::-webkit-scrollbar { width: 6px; }
 .scrollbar-thin::-webkit-scrollbar-track { background: transparent; }
-.scrollbar-thin::-webkit-scrollbar-thumb { background: #444; border-radius: 3px; }
-.scrollbar-thin::-webkit-scrollbar-thumb:hover { background: #666; }
+.scrollbar-thin::-webkit-scrollbar-thumb { background: var(--scrollbar-thumb); border-radius: 3px; }
+.scrollbar-thin::-webkit-scrollbar-thumb:hover { background: var(--scrollbar-thumb-hover); }
 
 input, button, a { touch-action: manipulation; }
 
 /* ─── Hero ─── */
 .hero-gradient {
-  background: radial-gradient(circle at 30% 10%, rgba(106,6,12,0.2), transparent 50%);
+  background: var(--hero-gradient-bg);
 }
 .hero-grid-bg {
   background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%236a060c' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
@@ -151,9 +239,9 @@ input, button, a { touch-action: manipulation; }
   flex: 1;
   min-width: 110px;
   padding: 1.2rem 1rem;
-  background: linear-gradient(135deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+  background: var(--glass-bg);
   border-radius: 20px;
-  border: 1px solid rgba(255,255,255,0.06);
+  border: 1px solid var(--border-color-2);
   transition: all 0.4s cubic-bezier(0.2,0.9,0.4,1.1);
   position: relative;
   overflow: hidden;
@@ -183,14 +271,14 @@ input, button, a { touch-action: manipulation; }
 .trust-item:hover i { transform: scale(1.2); }
 .trust-item h4 {
   font-size: 0.8rem;
-  color: #fff;
+  color: var(--text-primary);
   font-weight: 600;
   position: relative;
   z-index: 1;
 }
 .trust-item p {
   font-size: 0.65rem;
-  color: #888;
+  color: var(--text-dim);
   position: relative;
   z-index: 1;
 }
@@ -217,13 +305,13 @@ input, button, a { touch-action: manipulation; }
   margin: 0 auto;
 }
 .brand-item {
-  background: rgba(255,255,255,0.03);
+  background: var(--brand-item-bg);
   padding: 0.5rem 1.2rem;
   border-radius: 100px;
   font-size: 0.75rem;
   font-weight: 500;
-  color: #aaa;
-  border: 1px solid rgba(255,255,255,0.05);
+  color: var(--brand-item-color);
+  border: 1px solid var(--brand-item-border);
   transition: all 0.3s cubic-bezier(0.2,0.9,0.4,1.1);
   cursor: default;
 }
@@ -264,7 +352,7 @@ input, button, a { touch-action: manipulation; }
   font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #888;
+  color: var(--stat-text);
 }
 
 /* ─── Contact ─── */
@@ -282,17 +370,17 @@ input, button, a { touch-action: manipulation; }
   color: transparent;
 }
 .contact-card p {
-  color: #aaa;
+  color: var(--contact-desc);
   margin-bottom: 1.5rem;
   font-size: 0.85rem;
 }
 .contact-form input, .contact-form textarea {
   padding: 0.9rem;
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.1);
+  background: var(--contact-input-bg);
+  border: 1px solid var(--contact-input-border);
   border-radius: 16px;
   font-family: inherit;
-  color: white;
+  color: var(--contact-input-text);
   width: 100%;
   transition: border-color 0.3s, box-shadow 0.3s;
 }
@@ -374,9 +462,9 @@ input, button, a { touch-action: manipulation; }
   border-radius: 100px;
   font-size: 0.75rem;
   font-weight: 500;
-  background: rgba(255,255,255,0.05);
-  border: 1px solid rgba(255,255,255,0.1);
-  color: #ccc;
+  background: var(--pill-bg);
+  border: 1px solid var(--pill-border);
+  color: var(--pill-color);
   cursor: pointer;
   transition: all 0.2s;
 }
@@ -392,13 +480,13 @@ input, button, a { touch-action: manipulation; }
 
 /* ─── Specs ─── */
 .specs-section {
-  border-top: 1px solid rgba(255,255,255,0.1);
+  border-top: 1px solid var(--specs-border);
   padding-top: 1rem;
 }
 .specs-section h4 {
   font-size: 0.85rem;
   font-weight: 600;
-  color: #fff;
+  color: var(--text-primary);
   margin-bottom: 0.8rem;
 }
 .specs-list {
@@ -409,11 +497,11 @@ input, button, a { touch-action: manipulation; }
 }
 .specs-list li {
   font-size: 0.8rem;
-  color: #aaa;
+  color: var(--specs-text);
   padding: 0.3rem 0;
-  border-bottom: 1px solid rgba(255,255,255,0.04);
+  border-bottom: 1px solid var(--specs-item-border);
 }
-.specs-list li strong { color: #ddd; }
+.specs-list li strong { color: var(--specs-label); }
 
 /* ─── Payment icons ─── */
 .payment-icons {
@@ -421,7 +509,7 @@ input, button, a { touch-action: manipulation; }
   gap: 0.8rem;
   margin-top: 0.8rem;
   font-size: 1.5rem;
-  color: #666;
+  color: var(--payment-icon-color);
 }
 .payment-icons i { transition: all 0.3s; }
 .payment-icons i:hover {

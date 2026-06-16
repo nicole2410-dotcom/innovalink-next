@@ -10,8 +10,8 @@ const orderStatuses = ["Pendiente", "Procesando", "Enviado", "Entregado", "Cance
 function StatCard({ label, value, color }) {
   return (
     <div className={`glass-card p-5 bg-gradient-to-br ${color}`}>
-      <p className="text-xs text-white/70 uppercase tracking-wider">{label}</p>
-      <p className="text-white font-bold mt-1 text-2xl">{value}</p>
+      <p className="text-xs text-[#ffffffb3] uppercase tracking-wider">{label}</p>
+      <p className="text-[#fff] font-bold mt-1 text-2xl">{value}</p>
     </div>
   );
 }
